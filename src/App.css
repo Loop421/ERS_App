@@ -1,0 +1,100 @@
+html body{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+nav {
+  text-align: right;
+}
+
+nav > ul {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  text-decoration: none;
+  justify-content: space-evenly;
+  /* padding: 10px; */
+}
+
+nav > ul > li {
+  padding: 0 50px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#item {
+  text-decoration: none;
+}
+
+nav > ul > li:hover {
+  background-color: rgba(0,0,100,0.5);
+  background-size: auto;
+}
+
+section {
+  flex-grow: 1;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+section p{
+  max-width: 900px;
+  margin: auto;
+}
+
+table, th, td {
+  border-bottom: 1px solid darkgray;
+  border-collapse: collapse;
+  margin: auto;
+  width: 80%;
+}
+
+th {
+  text-align: left;
+}
+
+th, td{
+  padding: 15px;
+}
+
+.table {
+  width: 900px;
+  margin: auto;
+}
+
+#input-field
+{
+  text-align: center;
+}
+
+.container
+{
+  width: 400px;
+  margin: auto;
+}
+
+.btn-container
+{
+  text-align: center;
+}
+
+.input-container
+{
+  width: 20%;
+  margin: auto;
+}
+
+
+
